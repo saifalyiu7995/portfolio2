@@ -179,6 +179,30 @@ section {
     color: var(--main-color);
 }
 
+.share {
+    position: absolute;
+    left: 8%;
+    bottom: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.share p {
+    font-size: 17px;
+    color: var(--text-color);
+    margin-right: 25px;
+}
+
+.social i {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    color: var(--text-color);
+    font-size: 22px;
+}
+
 @media (max-width:1850px) {
     header {
         padding: 15px 8%;
@@ -213,7 +237,7 @@ section {
     }
 }
 
-@media (max-width:800px) {
+@media (max-width:850px) {
     .navbar a {
         display: none;
         transition: .2s;
@@ -234,17 +258,20 @@ section {
         height: auto;
         display: flex;
         flex-wrap: wrap;
+        margin: 0px 4px;
         transition: .2s;
     }
 
     .home-text {
         order: 2;
+        margin: 0px 4px;
+        transition: .2s;
     }
 
     .home-img {
-        margin: 30px;
-        width: fit-content;
-        height: fit-content;
+        margin: auto;
+        width: auto;
+        height: auto;
         transition: .2s;
     }
 
